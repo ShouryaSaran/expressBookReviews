@@ -1,0 +1,2 @@
+PS D:\expressBookReviews\expressBookReviews> curl -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d '{"username":"john","password":"1234"}'
+{"message":"User successfully logged in"}
